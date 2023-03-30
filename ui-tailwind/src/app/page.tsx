@@ -1,91 +1,15 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    <h1 className="color-green">
+      <main>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ex quis ullam earum, itaque nisi cumque quia repudiandae eius tempora quos, fugit modi dicta enim! Reprehenderit autem dolores dolorem amet.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde harum quaerat voluptatum voluptatem! Aperiam omnis sapiente ratione cum, modi cumque. Mollitia, aliquid explicabo! Id delectus optio nam minus, explicabo necessitatibus.
+        Dolorem excepturi minus voluptatibus alias fugit sed repellendus totam aliquid, ratione a iure est esse! Quibusdam modi nobis sint? Et numquam eveniet illo, aut ipsum voluptates? Magnam delectus soluta velit!
+        Sint magnam suscipit facilis nam atque harum expedita libero eius labore maiores, distinctio fuga? Delectus harum non neque nesciunt accusamus at eius quam autem. Dolorem, repellat. Dolore laboriosam doloremque nulla!
+        Laudantium, expedita vero? Beatae eligendi qui at explicabo rerum tempore aliquam, aliquid architecto illum ab porro accusantium labore ipsum ad inventore enim reiciendis. Non, quibusdam atque nesciunt autem quia itaque.
+        Nobis reprehenderit modi quidem perspiciatis consequuntur qui blanditiis ex sint, velit tempore tempora recusandae quas nam quam accusamus libero, assumenda officia harum ab dicta voluptatibus illo! Doloribus excepturi nemo ratione.
+        Sed aperiam consequatur et deleniti quia, magni asperiores nam nisi officia dolores sequi minima ab veniam eligendi. Alias, veniam facilis? Quos non vero iste atque eaque porro eos, exercitationem doloribus?
+      </main>
+    </h1>
   )
 }

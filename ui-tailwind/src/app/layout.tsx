@@ -1,3 +1,5 @@
+import { Header } from '@/components/Header'
+import { Sidebar } from '@/components/Sidebar'
 import './globals.css'
 
 export const metadata = {
@@ -12,7 +14,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-zinc-900">
+        <Sidebar/>
+        <div className="ml-80 relative h-screen">
+          <Header />
+          
+          <div className="py-24 max-w-4xl px-8 mx-8">
+            {children}
+          </div>
+        </div>
+      </body>
     </html>
   )
 }
